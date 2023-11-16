@@ -1,0 +1,16 @@
+<script>
+
+let quantita_stock=30;
+
+let ordinare = parseInt(prompt("Vuoi effettuare un ordine? Digita 1(si), 2(no)"))
+
+if(ordinare==1){
+    var quantita_ordinata = parseInt(prompt("Quante unità vuoi ordinare?"))
+    if(quantita_ordinata<=quantita_stock){
+        alert("Grazie per effettuato l'ordine! Alla prossima")
+    } else {alert("Quantità non disponibili.")}
+    
+} else alert("Arrivederci, alla prossima")
+
+
+</script>
